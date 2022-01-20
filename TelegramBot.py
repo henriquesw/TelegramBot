@@ -4,7 +4,7 @@ import threading
 
 from VideoDownloader import VideoDownloader
 
-API_KEY = '1806792473:AAGGWRNxfEmBFXt7BeOCaHeQ6Xp0iXCAurA'
+API_KEY = ''
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['start','help'])
